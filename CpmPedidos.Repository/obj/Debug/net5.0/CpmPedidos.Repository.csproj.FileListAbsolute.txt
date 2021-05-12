@@ -15,3 +15,6 @@ C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj
 C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.dll
 C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\ref\CpmPedidos.Repository.dll
 C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.runtimeconfig.json
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.runtimeconfig.dev.json
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.genruntimeconfig.cache
