@@ -1,0 +1,17 @@
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.deps.json
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\ref\CpmPedidos.Repository.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Repository.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Domain.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Interface.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Domain.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\bin\Debug\net5.0\CpmPedidos.Interface.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.csprojAssemblyReference.cache
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.AssemblyInfoInputs.cache
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.AssemblyInfo.cs
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.csproj.CopyComplete
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\ref\CpmPedidos.Repository.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.Repository\obj\Debug\net5.0\CpmPedidos.Repository.pdb

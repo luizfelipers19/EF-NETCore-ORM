@@ -26,6 +26,8 @@ namespace CpmPedidos.API
         public void ConfigureServices(IServiceCollection services)
         {
 
+            DependencyInjection.Register(services);
+
             services.AddControllers();
         }
 

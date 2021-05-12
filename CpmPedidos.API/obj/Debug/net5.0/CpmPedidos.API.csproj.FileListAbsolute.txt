@@ -21,3 +21,10 @@ C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\obj\Debug\
 C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\obj\Debug\net5.0\ref\CpmPedidos.API.dll
 C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\obj\Debug\net5.0\CpmPedidos.API.pdb
 C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\obj\Debug\net5.0\CpmPedidos.API.genruntimeconfig.cache
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\bin\Debug\net5.0\CpmPedidos.Domain.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\bin\Debug\net5.0\CpmPedidos.Interface.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\bin\Debug\net5.0\CpmPedidos.Repository.dll
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\bin\Debug\net5.0\CpmPedidos.Domain.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\bin\Debug\net5.0\CpmPedidos.Interface.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\bin\Debug\net5.0\CpmPedidos.Repository.pdb
+C:\Users\Windows\Desktop\Estudo\Rock.Net5EF\CpmPedidos\CpmPedidos.API\obj\Debug\net5.0\CpmPedidos.API.csproj.CopyComplete
