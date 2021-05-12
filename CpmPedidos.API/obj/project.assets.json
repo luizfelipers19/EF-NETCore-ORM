@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CpmPedidos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CpmPedidos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CpmPedidos.Domain.dll": {}
+        }
+      },
+      "CpmPedidos.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CpmPedidos.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CpmPedidos.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CpmPedidos.Interface.dll": {}
+        }
+      },
+      "CpmPedidos.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CpmPedidos.Domain": "1.0.0",
+          "CpmPedidos.Interface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CpmPedidos.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CpmPedidos.Repository.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CpmPedidos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CpmPedidos.Domain/CpmPedidos.Domain.csproj",
+      "msbuildProject": "../CpmPedidos.Domain/CpmPedidos.Domain.csproj"
+    },
+    "CpmPedidos.Interface/1.0.0": {
+      "type": "project",
+      "path": "../CpmPedidos.interfaces/CpmPedidos.Interface.csproj",
+      "msbuildProject": "../CpmPedidos.interfaces/CpmPedidos.Interface.csproj"
+    },
+    "CpmPedidos.Repository/1.0.0": {
+      "type": "project",
+      "path": "../CpmPedidos.Repository/CpmPedidos.Repository.csproj",
+      "msbuildProject": "../CpmPedidos.Repository/CpmPedidos.Repository.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CpmPedidos.Domain >= 1.0.0",
+      "CpmPedidos.Interface >= 1.0.0",
+      "CpmPedidos.Repository >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Windows\\.nuget\\packages\\": {},
@@ -38,7 +96,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Windows\\Desktop\\Estudo\\Rock.Net5EF\\CpmPedidos\\CpmPedidos.Domain\\CpmPedidos.Domain.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Desktop\\Estudo\\Rock.Net5EF\\CpmPedidos\\CpmPedidos.Domain\\CpmPedidos.Domain.csproj"
+            },
+            "C:\\Users\\Windows\\Desktop\\Estudo\\Rock.Net5EF\\CpmPedidos\\CpmPedidos.interfaces\\CpmPedidos.Interface.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Desktop\\Estudo\\Rock.Net5EF\\CpmPedidos\\CpmPedidos.interfaces\\CpmPedidos.Interface.csproj"
+            },
+            "C:\\Users\\Windows\\Desktop\\Estudo\\Rock.Net5EF\\CpmPedidos\\CpmPedidos.Repository\\CpmPedidos.Repository.csproj": {
+              "projectPath": "C:\\Users\\Windows\\Desktop\\Estudo\\Rock.Net5EF\\CpmPedidos\\CpmPedidos.Repository\\CpmPedidos.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
