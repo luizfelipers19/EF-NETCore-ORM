@@ -10,21 +10,37 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.Common;
+using Npgsql;
+using CpmPedidos.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace CpmPedidos.API
 {
     public class Startup
     {
+        
+        public IConfiguration Configuration { get; }
+
+        public DbConnection dbConnection => new NpgsqlConnection(Configuration.GetConnectionString("App"));
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseNpgsql(
+                    DbConnection,
+                    assembly => assembly.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
+            });
+
 
             DependencyInjection.Register(services);
 
