@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CpmPedidos.Domain.Entities
+namespace CpmPedidos.Domain
 {
     public abstract class BaseDomain
     {

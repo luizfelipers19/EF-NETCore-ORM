@@ -7,15 +7,20 @@ using System.Threading.Tasks;
 
 namespace CpmPedidos.Domain
 {
-    public class Cidade : BaseDomain, IExibivel
+    public class Cliente : BaseDomain, IExibivel
     {
-      
 
         public string Nome { get; set; }
 
-        public string UF { get; set; }
+        public string Cpf { get; set; }
+
+        public int IdEndereco {get;set;}
+
+        public virtual Endereco Endereco { get; set; }
 
         public bool Ativado { get; set; }
+
+        
 
     }
 }

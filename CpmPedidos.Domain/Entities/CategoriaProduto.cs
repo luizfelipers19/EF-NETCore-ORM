@@ -7,13 +7,11 @@ using System.Threading.Tasks;
 
 namespace CpmPedidos.Domain
 {
-    public class Cidade : BaseDomain, IExibivel
+    public class CategoriaProduto : BaseDomain, IExibivel
     {
       
 
         public string Nome { get; set; }
-
-        public string UF { get; set; }
 
         public bool Ativado { get; set; }
 

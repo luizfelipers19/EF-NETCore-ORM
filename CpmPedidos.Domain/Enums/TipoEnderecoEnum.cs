@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CpmPedidos.Domain
-{
-    public interface IExibivel
+namespace CpmPedidos.Domain { 
+   public enum TipoEnderecoEnum : byte
     {
-      public bool Ativado { get; set; }
+        Fisica, 
+        Juridica
     }
 }

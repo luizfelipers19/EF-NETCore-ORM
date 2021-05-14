@@ -7,15 +7,17 @@ using System.Threading.Tasks;
 
 namespace CpmPedidos.Domain
 {
-    public class Cidade : BaseDomain, IExibivel
+    public class Imagem : BaseDomain
     {
       
 
         public string Nome { get; set; }
 
-        public string UF { get; set; }
+        public string NomeArquivo { get; set; }
 
-        public bool Ativado { get; set; }
+        public bool ImagemPrincipal { get; set; }
+
+
 
     }
 }

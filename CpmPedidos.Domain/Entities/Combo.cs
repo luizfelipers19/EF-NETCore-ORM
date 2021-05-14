@@ -7,13 +7,19 @@ using System.Threading.Tasks;
 
 namespace CpmPedidos.Domain
 {
-    public class Cidade : BaseDomain, IExibivel
+    public class Combo : BaseDomain, IExibivel
     {
-      
+
 
         public string Nome { get; set; }
 
-        public string UF { get; set; }
+        public decimal Preco { get; set; }
+
+        public int IdImagem {get;set;}
+
+        public virtual Imagem Imagem { get; set; }
+
+        public virtual List<Produto> Produtos { get; set; }
 
         public bool Ativado { get; set; }
 
