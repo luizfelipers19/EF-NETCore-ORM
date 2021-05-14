@@ -9,8 +9,14 @@ namespace CpmPedidos.Repository
 {
     public class ApplicationDbContext : DbContext 
     {
-        protected override OnModelCreating(ModelBuilder modelBuilder)
+        //exemplo de DbSet de uma entidade (singular) para ser transformada em tabela (plural)
+      //  public virtual DbSet<Pedido> Pedidos { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+           // DbContext.Pedidos.
+
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
