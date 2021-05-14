@@ -22,7 +22,7 @@ namespace CpmPedidos.API
         
         public IConfiguration Configuration { get; }
 
-        public DbConnection dbConnection => new NpgsqlConnection(Configuration.GetConnectionString("App"));
+        public DbConnection DbConnection => new NpgsqlConnection(Configuration.GetConnectionString("App"));
 
         public Startup(IConfiguration configuration)
         {
