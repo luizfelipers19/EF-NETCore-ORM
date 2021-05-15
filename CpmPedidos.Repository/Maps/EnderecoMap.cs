@@ -25,6 +25,11 @@ namespace CpmPedidos.Repository
             builder.Property(x => x.Numero).HasColumnName("numero").HasMaxLength(10);
             builder.Property(x => x.Complemento).HasColumnName("complemento").HasMaxLength(50);
             builder.Property(x => x.CEP).HasColumnName("cep").HasMaxLength(8);
+
+
+            //associações de relacionamento
+            //relacionamento um pra um
+            builder.HasOne(x => x.Cliente).WithOne(x => x.Endereco).HasForeignKey<Cliente>(x => x.IdEndereco);
         }
     }
 }

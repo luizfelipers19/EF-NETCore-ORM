@@ -22,6 +22,12 @@ namespace CpmPedidos.Repository
             builder.Property(x => x.Nome).HasColumnName("nome").HasMaxLength(100).IsRequired();
             builder.Property(x => x.Cpf).HasColumnName("cpf").HasMaxLength(11).IsRequired();
             builder.Property(x => x.Ativado).HasColumnName("ativado").IsRequired();
+            //chave
+            builder.Property(x => x.IdEndereco).HasColumnName("id_endereco").IsRequired();
+
+
+            //associacoes de relacionamento
+           // builder
         }
     }
 }
