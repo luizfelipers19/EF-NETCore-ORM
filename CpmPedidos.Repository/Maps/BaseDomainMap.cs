@@ -24,6 +24,11 @@ namespace CpmPedidos.Repository
             {
                 builder.ToTable(_tableName);
             }
+
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).HasColumnName("id").ValueGeneratedOnAdd();
+
+            builder.Property(x => x.CriadoEm).HasColumnName("criado_em").IsRequired();
         }
 
     }
