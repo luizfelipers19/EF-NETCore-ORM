@@ -11,7 +11,7 @@ namespace CpmPedidos.Repository
 {
     public class ProdutoPedidoMap : BaseDomainMap<ProdutoPedido>
     {
-        ProdutoPedidoMap(): base("tb_produtopedido")
+        public ProdutoPedidoMap(): base("tb_produtopedido")
         {
 
         }

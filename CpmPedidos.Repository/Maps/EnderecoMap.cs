@@ -11,7 +11,7 @@ namespace CpmPedidos.Repository
 {
     public class EnderecoMap : BaseDomainMap<Endereco>
     {
-        EnderecoMap(): base("tb_endereco")
+        public EnderecoMap(): base("tb_endereco")
         {
 
         }

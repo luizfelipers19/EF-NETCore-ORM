@@ -11,7 +11,7 @@ namespace CpmPedidos.Repository
 {
     public class PromocaoProdutoMap : BaseDomainMap<PromocaoProduto>
     {
-        PromocaoProdutoMap(): base("tb_promocaoproduto")
+        public PromocaoProdutoMap(): base("tb_promocaoproduto")
         {
 
         }
