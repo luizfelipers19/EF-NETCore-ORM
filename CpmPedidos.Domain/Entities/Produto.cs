@@ -27,6 +27,7 @@ namespace CpmPedidos.Domain
 
         public virtual List<PromocaoProduto> Promocoes { get; set; }
 
+        public virtual List<Combo> Combos { get; set; }
 
         public bool Ativado { get; set; }
 
