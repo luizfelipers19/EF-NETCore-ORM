@@ -24,8 +24,10 @@ namespace CpmPedidos.Repository
             builder.Property(x => x.Codigo).HasColumnName("codigo").HasMaxLength(50).IsRequired();
             builder.Property(x => x.Descricao).HasColumnName("descricao").HasMaxLength(50).IsRequired();
             builder.Property(x => x.Preco).HasColumnName("preco").HasPrecision(17, 2).IsRequired();
-
             builder.Property(x => x.Ativado).HasColumnName("ativado").IsRequired();
+
+            builder.Property(x => x.IdCategoria).HasColumnName("id_categoria").IsRequired();
+            builder.HasOne(x => x.Categoria).WithMany(x => x.Produtos).HasForeignKey(x => x.IdCategoria);
         }
     }
 }

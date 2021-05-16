@@ -30,6 +30,15 @@ namespace CpmPedidos.Repository
             //associações de relacionamento
             //relacionamento um pra um
             builder.HasOne(x => x.Cliente).WithOne(x => x.Endereco).HasForeignKey<Cliente>(x => x.IdEndereco);
+
+            //setando a chave estrangeira
+            builder.Property(x => x.IdCidade).HasColumnName("id_cidade").IsRequired();
+            builder.HasOne(x => x.Cidade).WithMany().HasForeignKey(x => x.IdCidade);
+
+            
+        
         }
+
+
     }
 }

@@ -15,5 +15,7 @@ namespace CpmPedidos.Domain
 
         public bool Ativado { get; set; }
 
+        public virtual List<Produto> Produtos { get; set; }
+
     }
 }
